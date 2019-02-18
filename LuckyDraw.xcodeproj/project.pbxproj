@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18853D3C21F054DB00645B04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18853D3B21F054DB00645B04 /* AppDelegate.m */; };
+		18853D3F21F054DB00645B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18853D3E21F054DB00645B04 /* ViewController.m */; };
+		18853D4221F054DB00645B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18853D4021F054DB00645B04 /* Main.storyboard */; };
+		18853D4421F054DD00645B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18853D4321F054DD00645B04 /* Assets.xcassets */; };
+		18853D4721F054DD00645B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18853D4521F054DD00645B04 /* LaunchScreen.storyboard */; };
+		18853D4A21F054DD00645B04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18853D4921F054DD00645B04 /* main.m */; };
+		18853D5421F054DD00645B04 /* LuckyDrawTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18853D5321F054DD00645B04 /* LuckyDrawTests.m */; };
+		18853D5F21F054DD00645B04 /* LuckyDrawUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18853D5E21F054DD00645B04 /* LuckyDrawUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18853D5021F054DD00645B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18853D2F21F054DB00645B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18853D3621F054DB00645B04;
+			remoteInfo = LuckyDraw;
+		};
+		18853D5B21F054DD00645B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18853D2F21F054DB00645B04 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18853D3621F054DB00645B04;
+			remoteInfo = LuckyDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18853D3721F054DB00645B04 /* LuckyDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18853D3A21F054DB00645B04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18853D3B21F054DB00645B04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18853D3D21F054DB00645B04 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18853D3E21F054DB00645B04 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18853D4121F054DB00645B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18853D4321F054DD00645B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18853D4621F054DD00645B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18853D4821F054DD00645B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18853D4921F054DD00645B04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18853D4F21F054DD00645B04 /* LuckyDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18853D5321F054DD00645B04 /* LuckyDrawTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyDrawTests.m; sourceTree = "<group>"; };
+		18853D5521F054DD00645B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18853D5A21F054DD00645B04 /* LuckyDrawUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyDrawUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18853D5E21F054DD00645B04 /* LuckyDrawUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LuckyDrawUITests.m; sourceTree = "<group>"; };
+		18853D6021F054DD00645B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18853D3421F054DB00645B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853D4C21F054DD00645B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853D5721F054DD00645B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18853D2E21F054DB00645B04 = {
+			isa = PBXGroup;
+			children = (
+				18853D3921F054DB00645B04 /* LuckyDraw */,
+				18853D5221F054DD00645B04 /* LuckyDrawTests */,
+				18853D5D21F054DD00645B04 /* LuckyDrawUITests */,
+				18853D3821F054DB00645B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18853D3821F054DB00645B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18853D3721F054DB00645B04 /* LuckyDraw.app */,
+				18853D4F21F054DD00645B04 /* LuckyDrawTests.xctest */,
+				18853D5A21F054DD00645B04 /* LuckyDrawUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18853D3921F054DB00645B04 /* LuckyDraw */ = {
+			isa = PBXGroup;
+			children = (
+				18853D3A21F054DB00645B04 /* AppDelegate.h */,
+				18853D3B21F054DB00645B04 /* AppDelegate.m */,
+				18853D3D21F054DB00645B04 /* ViewController.h */,
+				18853D3E21F054DB00645B04 /* ViewController.m */,
+				18853D4021F054DB00645B04 /* Main.storyboard */,
+				18853D4321F054DD00645B04 /* Assets.xcassets */,
+				18853D4521F054DD00645B04 /* LaunchScreen.storyboard */,
+				18853D4821F054DD00645B04 /* Info.plist */,
+				18853D4921F054DD00645B04 /* main.m */,
+			);
+			path = LuckyDraw;
+			sourceTree = "<group>";
+		};
+		18853D5221F054DD00645B04 /* LuckyDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				18853D5321F054DD00645B04 /* LuckyDrawTests.m */,
+				18853D5521F054DD00645B04 /* Info.plist */,
+			);
+			path = LuckyDrawTests;
+			sourceTree = "<group>";
+		};
+		18853D5D21F054DD00645B04 /* LuckyDrawUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18853D5E21F054DD00645B04 /* LuckyDrawUITests.m */,
+				18853D6021F054DD00645B04 /* Info.plist */,
+			);
+			path = LuckyDrawUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18853D3621F054DB00645B04 /* LuckyDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18853D6321F054DD00645B04 /* Build configuration list for PBXNativeTarget "LuckyDraw" */;
+			buildPhases = (
+				18853D3321F054DB00645B04 /* Sources */,
+				18853D3421F054DB00645B04 /* Frameworks */,
+				18853D3521F054DB00645B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyDraw;
+			productName = LuckyDraw;
+			productReference = 18853D3721F054DB00645B04 /* LuckyDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18853D4E21F054DD00645B04 /* LuckyDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18853D6621F054DD00645B04 /* Build configuration list for PBXNativeTarget "LuckyDrawTests" */;
+			buildPhases = (
+				18853D4B21F054DD00645B04 /* Sources */,
+				18853D4C21F054DD00645B04 /* Frameworks */,
+				18853D4D21F054DD00645B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18853D5121F054DD00645B04 /* PBXTargetDependency */,
+			);
+			name = LuckyDrawTests;
+			productName = LuckyDrawTests;
+			productReference = 18853D4F21F054DD00645B04 /* LuckyDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18853D5921F054DD00645B04 /* LuckyDrawUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18853D6921F054DD00645B04 /* Build configuration list for PBXNativeTarget "LuckyDrawUITests" */;
+			buildPhases = (
+				18853D5621F054DD00645B04 /* Sources */,
+				18853D5721F054DD00645B04 /* Frameworks */,
+				18853D5821F054DD00645B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18853D5C21F054DD00645B04 /* PBXTargetDependency */,
+			);
+			name = LuckyDrawUITests;
+			productName = LuckyDrawUITests;
+			productReference = 18853D5A21F054DD00645B04 /* LuckyDrawUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18853D2F21F054DB00645B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dywc;
+				TargetAttributes = {
+					18853D3621F054DB00645B04 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					18853D4E21F054DD00645B04 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18853D3621F054DB00645B04;
+					};
+					18853D5921F054DD00645B04 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 18853D3621F054DB00645B04;
+					};
+				};
+			};
+			buildConfigurationList = 18853D3221F054DB00645B04 /* Build configuration list for PBXProject "LuckyDraw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18853D2E21F054DB00645B04;
+			productRefGroup = 18853D3821F054DB00645B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18853D3621F054DB00645B04 /* LuckyDraw */,
+				18853D4E21F054DD00645B04 /* LuckyDrawTests */,
+				18853D5921F054DD00645B04 /* LuckyDrawUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18853D3521F054DB00645B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18853D4721F054DD00645B04 /* LaunchScreen.storyboard in Resources */,
+				18853D4421F054DD00645B04 /* Assets.xcassets in Resources */,
+				18853D4221F054DB00645B04 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853D4D21F054DD00645B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853D5821F054DD00645B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18853D3321F054DB00645B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18853D3F21F054DB00645B04 /* ViewController.m in Sources */,
+				18853D4A21F054DD00645B04 /* main.m in Sources */,
+				18853D3C21F054DB00645B04 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853D4B21F054DD00645B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18853D5421F054DD00645B04 /* LuckyDrawTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18853D5621F054DD00645B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18853D5F21F054DD00645B04 /* LuckyDrawUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18853D5121F054DD00645B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18853D3621F054DB00645B04 /* LuckyDraw */;
+			targetProxy = 18853D5021F054DD00645B04 /* PBXContainerItemProxy */;
+		};
+		18853D5C21F054DD00645B04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18853D3621F054DB00645B04 /* LuckyDraw */;
+			targetProxy = 18853D5B21F054DD00645B04 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18853D4021F054DB00645B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18853D4121F054DB00645B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18853D4521F054DD00645B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18853D4621F054DD00645B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18853D6121F054DD00645B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18853D6221F054DD00645B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18853D6421F054DD00645B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6T64B2XPF;
+				INFOPLIST_FILE = LuckyDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dywc.xdxChat.LuckyDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		18853D6521F054DD00645B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G6T64B2XPF;
+				INFOPLIST_FILE = LuckyDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dywc.xdxChat.LuckyDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		18853D6721F054DD00645B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46QYSC96QG;
+				INFOPLIST_FILE = LuckyDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dywc.xdxChat.LuckyDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyDraw.app/LuckyDraw";
+			};
+			name = Debug;
+		};
+		18853D6821F054DD00645B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46QYSC96QG;
+				INFOPLIST_FILE = LuckyDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dywc.xdxChat.LuckyDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyDraw.app/LuckyDraw";
+			};
+			name = Release;
+		};
+		18853D6A21F054DD00645B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46QYSC96QG;
+				INFOPLIST_FILE = LuckyDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dywc.xdxChat.LuckyDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyDraw;
+			};
+			name = Debug;
+		};
+		18853D6B21F054DD00645B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 46QYSC96QG;
+				INFOPLIST_FILE = LuckyDrawUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dywc.xdxChat.LuckyDrawUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LuckyDraw;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18853D3221F054DB00645B04 /* Build configuration list for PBXProject "LuckyDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18853D6121F054DD00645B04 /* Debug */,
+				18853D6221F054DD00645B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18853D6321F054DD00645B04 /* Build configuration list for PBXNativeTarget "LuckyDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18853D6421F054DD00645B04 /* Debug */,
+				18853D6521F054DD00645B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18853D6621F054DD00645B04 /* Build configuration list for PBXNativeTarget "LuckyDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18853D6721F054DD00645B04 /* Debug */,
+				18853D6821F054DD00645B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18853D6921F054DD00645B04 /* Build configuration list for PBXNativeTarget "LuckyDrawUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18853D6A21F054DD00645B04 /* Debug */,
+				18853D6B21F054DD00645B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18853D2F21F054DB00645B04 /* Project object */;
+}
